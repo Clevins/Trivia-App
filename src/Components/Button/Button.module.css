@@ -1,0 +1,55 @@
+.btn {
+  @apply p-5 ease-in-out shadow-lg hover:transition hover:duration-200 hover:scale-105 rounded-3xl;
+}
+
+.btn--small {
+  @apply w-56 h-auto;
+}
+
+.btn--medium {
+  @apply h-auto w-60 min-h-[120px];
+}
+
+.btn--large {
+  @apply w-64 h-auto min-h-[160px];
+}
+
+.btn__label {
+  @apply font-sans text-3xl;
+}
+
+.btn__label--blue {
+  @apply text-soft-blue;
+}
+
+.btn__label--red {
+  @apply text-soft-red;
+}
+
+.btn__label--purple {
+  @apply text-purple;
+}
+
+.btn__label--white {
+  @apply text-white;
+}
+
+.btn__label--black {
+  @apply text-gray-700;
+}
+
+.btn__label--soft-purple {
+  @apply text-soft-purple;
+}
+
+.btn__background--white {
+  @apply bg-white;
+}
+
+.btn__background--green {
+  @apply bg-green-400;
+}
+
+.btn__background--red {
+  @apply bg-red-400;
+}

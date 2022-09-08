@@ -1,0 +1,8 @@
+.question__title {
+  @apply relative mx-auto my-5 text-3xl font-bold text-center text-white;
+}
+
+.answers__container {
+  @apply grid mt-10 place-content-center place-items-center gap-y-6;
+  @apply grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4;
+}

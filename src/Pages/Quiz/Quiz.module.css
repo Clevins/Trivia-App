@@ -1,0 +1,7 @@
+.quiz__title {
+  @apply relative mx-auto text-4xl font-bold text-center text-white;
+}
+
+.quiz__container {
+  @apply max-w-[1280px] mx-auto relative  pt-10;
+}

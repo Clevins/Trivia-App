@@ -1,0 +1,79 @@
+.background {
+  @apply w-full h-full -z-10 min-h-[100vh] flex;
+}
+
+.background--blue {
+  background: rgb(50, 147, 244);
+  background: linear-gradient(
+    180deg,
+    rgba(50, 147, 244, 1) 0%,
+    rgba(87, 113, 236, 1) 100%
+  );
+}
+
+.background--red {
+  background: rgb(234, 112, 159);
+  background: linear-gradient(
+    180deg,
+    rgba(234, 112, 159, 1) 0%,
+    rgba(235, 139, 107, 1) 100%
+  );
+}
+
+.background--purple {
+  background: rgb(127, 0, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 100%
+  );
+}
+
+.background--soft-purple {
+  background: rgb(190, 147, 197);
+  background: linear-gradient(
+    180deg,
+    rgba(190, 147, 197, 1) 0%,
+    rgba(123, 198, 204, 1) 100%
+  );
+}
+
+.background__pattern {
+  @apply relative w-full h-full min-h-screen;
+}
+
+.background__pattern--blue svg {
+  fill: rgba(87, 113, 236, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.background__pattern--red svg {
+  fill: rgba(235, 139, 107, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background__pattern--purple svg {
+  fill: rgba(225, 0, 255, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background__pattern--soft-purple svg {
+  fill: rgba(123, 198, 204, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  @apply w-10/12 py-5 mx-auto;
+}
+.container__title {
+  @apply relative mx-auto text-4xl font-bold text-center text-white;
+}

@@ -1,0 +1,7 @@
+.error__title {
+  @apply relative mx-auto text-4xl font-bold text-center text-white;
+}
+
+.error__container {
+  @apply max-w-[1280px] mx-auto relative grid pt-10 place-content-center place-items-center gap-y-6;
+}
