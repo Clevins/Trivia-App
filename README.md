@@ -2,13 +2,15 @@
 
 Simple web app trivia game built using react and xstate. Players select the number of questions, the category and the difficulty, to generate multiple choice questions. Goal of this game was to explore the features of [XState](https://xstate.js.org/docs/).
 
+## Production URL
 
+<a href="https://trivia-app-clevins.vercel.app/" target="_blank">Trivia Game</a>
 
 ## Project Screen Shots and Designs
 
 #### Designs:   
 
-[Figma File](https://www.figma.com/file/6h9JUJuP35tEwo78FsPBQq/Trivia-Game)
+<a href="https://www.figma.com/file/6h9JUJuP35tEwo78FsPBQq/Trivia-Game" target="_blank">Figma File</a>
 
 #### Screenshots:
 Select Question:
