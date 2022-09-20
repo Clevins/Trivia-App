@@ -1,6 +1,6 @@
 import Layout from "@/Components/Layout/Layout";
 import { BackgroundColorType } from "@/Components/Layout/LayoutTypes";
-import { State } from "@/triviaMachine";
+import { State } from "@/State/triviaMachine";
 import { ReactElement } from "react";
 import styles from "./Loading.module.css";
 

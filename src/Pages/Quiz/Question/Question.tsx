@@ -1,6 +1,6 @@
 import { ReactElement, useContext, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { GlobalStateContext } from "@/triviaMachine";
+import { GlobalStateContext } from "@/State/triviaMachine";
 
 import Answer from "../Answer/Answer";
 import styles from "./Question.module.css";

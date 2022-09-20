@@ -1,6 +1,6 @@
 import { ReactElement, useContext } from "react";
 import { useActor } from "@xstate/react";
-import { QuestionsOption, GlobalStateContext } from "@/triviaMachine";
+import { QuestionsOption, GlobalStateContext } from "@/State/triviaMachine";
 
 import Layout from "@/Components/Layout/Layout";
 import { BackgroundColorType } from "@/Components/Layout/LayoutTypes";

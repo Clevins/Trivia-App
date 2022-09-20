@@ -1,5 +1,8 @@
-import { useActor, useInterpret, useMachine } from "@xstate/react";
-import triviaMachine, { State, GlobalStateContext } from "./triviaMachine";
+import { useActor, useInterpret } from "@xstate/react";
+import triviaMachine, {
+  State,
+  GlobalStateContext,
+} from "./State/triviaMachine";
 
 import Error from "@/Pages/Error";
 import Loading from "@/Pages/Loading/Loading";

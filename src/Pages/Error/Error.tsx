@@ -1,5 +1,5 @@
 import { ReactElement, useContext } from "react";
-import { GlobalStateContext } from "@/triviaMachine";
+import { GlobalStateContext } from "@/State/triviaMachine";
 
 import Layout from "@/Components/Layout/Layout";
 import { BackgroundColorType } from "@/Components/Layout/LayoutTypes";

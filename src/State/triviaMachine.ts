@@ -2,8 +2,8 @@ import { actions, assign, createMachine, InterpreterFrom } from "xstate";
 import type { EventObject } from "xstate";
 import { createContext } from "react";
 
-import { API_ROUTES } from "./apiRoutes";
-import { QuestionProp } from "./Pages/Quiz/Question/QuestionTypes";
+import { API_ROUTES } from "../Lib/apiRoutes";
+import { QuestionProp } from "../Pages/Quiz/Question/QuestionTypes";
 
 export enum State {
   LOADING = "loading",
